@@ -13,7 +13,7 @@ public class InventoryApp {
 
 	final static Logger logger = Logger.getLogger(InventoryApp.class);
 
-	public static void main(String[] args) throws InventorySystemExceptions, InventoryNotFoundException, ItemValidationException {
+	public static void main(String args[]) throws InventorySystemExceptions, InventoryNotFoundException, ItemValidationException {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			ConsoleUtility.showBanner();
